@@ -1,0 +1,12 @@
+{
+  "name": "investiq-ai-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server --legacy-peer-deps",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "npx concurrently -k -p \"[{name}]\" -n \"server,client\" -c \"yellow,blue\" \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "npm run build --prefix client"
+  }
+}

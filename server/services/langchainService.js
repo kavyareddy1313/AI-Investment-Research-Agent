@@ -8,7 +8,7 @@ import { logger } from '../utils/logger.js';
 // ─────────────────────────────────────────────
 
 // Verified available model from API key probe
-const GEMINI_MODEL = 'gemini-2.0-flash';
+const GEMINI_MODEL = 'gemini-1.5-flash';
 
 // ─────────────────────────────────────────────
 // STEP 2: TAVILY MULTI-TOPIC INTELLIGENCE GATHER

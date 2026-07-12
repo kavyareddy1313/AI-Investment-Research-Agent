@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://ai-investment-research-agent-iota.vercel.app/api/:path*"
+    }
+  ]
+}
